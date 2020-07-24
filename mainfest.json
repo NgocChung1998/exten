@@ -1,0 +1,21 @@
+{
+  "name": "YHP",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Build a extension!",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "icons": {
+    "16": "images/4u16.png",
+    "32": "images/4u16.png",
+    "128": "images/4u16.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/4u16.png",
+      "32": "images/4u16.png",
+      "128": "images/4u16.png"
+    },
+    "default_title": "YNL"
+  }
+}
